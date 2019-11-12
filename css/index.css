@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-/* Code starts here */
+/* Index.html code starts here */
 
 p {
     line-height: 1.4;
@@ -204,4 +204,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html code starts here */
+
+.about-content {
+    padding: 20px 3%;
+    border-bottom: 1px dashed black;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.main-content .content-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.main-content h2 {
+    margin: 5px 0 10px 0;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+}
+
+.content-container .button {
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
