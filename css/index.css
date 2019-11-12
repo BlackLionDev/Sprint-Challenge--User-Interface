@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Code starts here */
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +71,27 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+header nav {
+    margin-top: 25px;
+	vertical-align: bottom;
+}
+
+header nav a {
+	margin: 10px 50px 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
 }
 
 .top-content {
